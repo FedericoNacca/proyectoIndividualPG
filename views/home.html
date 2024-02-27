@@ -74,7 +74,33 @@
             <input type="password" name="password">
             <p></p>
             <button type="submit">Enviar</button>
-        </form>
+        <form action="resultado.html" method="POST">
+        <label for="mascota">Tienes mascota ?</label>
+        <input type="radio" name="mascota" value="si">
+        <input type="submit" value="Enviar">
+    </form>
+    <p></p>
+    <form action="resultado.html" method="POST">
+        <label for="mascota">Tienes mascota ?</label>
+        <input type="radio" name="mascota" value="si">
+    </form>
+    <p></p>
+    <form action="/mascota" method="POST">
+        <label for="mascota">Tienes mascota ?</label>
+        <input type="radio" name="mascota" value="si">
+        <label>si</label>
+        <input type="radio" name="mascota" value="no">
+        <label>no</label>
+        <input type="submit" value="Enviar">
+    </form>
+    <p></p>
+    <form action="/crear-producto" method="post">
+        <div>
+            <label>Nombre del producto</label>
+            <input type="text">
+        </div>
+
+    </form>
 
     </div>
     </body>
