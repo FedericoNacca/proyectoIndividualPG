@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+.contenedorGrande {
+    font-family: "lato", sans-serif; 
+    display: flex;
+    flex-direction: column;
+    }
+
+    .contenedor01 {
+    width: 70%;
+    padding: 30px;
+    border: solid 5px black;
+    background-color: salmon;
+    margin: auto;
+    
+}
+
+@media (min-width: 570px) {
+    .contenedor01 {
+        width: 90%;
+        border: solid 5px salmon;   
+        background-color: black;
+        color: white;
+    }
+}
+
+@media (min-width: 900px) {
+    .contenedor01{
+        color:brown;
+    }
+    .oculto{
+        display: block;
+    }
+}
+
